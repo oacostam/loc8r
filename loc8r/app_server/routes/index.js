@@ -1,5 +1,6 @@
 ﻿var express = require('express');
 var router = express.Router();
+var controller = require('../controllers/main')
 
 
 var homePageController = function(req, res) {
@@ -7,6 +8,6 @@ var homePageController = function(req, res) {
 }
 
 /* GET home page. */
-router.get('/', homePageController);
+router.get('/', controller.index);
 
 module.exports = router;
