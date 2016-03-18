@@ -6,10 +6,14 @@
     "start": "node ./bin/www"
   },
   "description": "loc8r",
-  "author": {
-    "name": "oacostam",
-    "email": ""
-  },
+    "author": {
+        "name": "oacostam",
+        "email": ""
+    },
+    "engines": {
+        "node": "~5.4.1",
+        "npm": "~3.3.12"
+    },
   "dependencies": {
     "express": "~4.9.0",
     "body-parser": "~1.8.1",
